@@ -1,0 +1,96 @@
+.create-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.create-article h1 {
+  margin-bottom: 20px;
+}
+.create-article form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.create-article form .imageContainer {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.create-article form .imageContainer input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #2b2a33;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+.create-article form .imageContainer button {
+  width: 100%;
+  padding: 10px;
+  margin: 0 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
+}
+.create-article form input,
+.create-article form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.create-article form .text-editor {
+  width: 600px;
+  height: 300px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #2b2a33;
+}
+.create-article form .text-editor .ql-editor {
+  color: #fff;
+}
+.create-article form .text-editor .ql-toolbar {
+  background-color: #2b2a33;
+}
+.create-article form .text-editor .ql-stroke {
+  stroke: #fff;
+}
+.create-article form .text-editor .ql-fill {
+  fill: #fff;
+}
+.create-article form .text-editor .ql-picker-label {
+  color: #fff;
+}
+.create-article form .submitBtn {
+  width: 580px;
+  padding: 10px 20px;
+  margin-top: 80px;
+  font-size: 1rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=CreateArticle.css.map */

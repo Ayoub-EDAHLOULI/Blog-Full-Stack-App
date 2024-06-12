@@ -1,0 +1,63 @@
+.Register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5647058824);
+  position: relative;
+}
+.Register .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.Register .close i {
+  color: #fff;
+}
+.Register form {
+  width: 100%;
+  max-width: 400px;
+  padding: 50px 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Register form h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.Register form .labelError {
+  color: red;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.Register form input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 13px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.Register form button {
+  width: 100%;
+  padding: 13px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6600;
+  color: #fff;
+  cursor: pointer;
+}
+.Register form .accountMissing {
+  margin-top: 15px;
+  text-align: center;
+}
+.Register form .accountMissing a {
+  color: #ff6600;
+  text-decoration: none;
+  margin-left: 5px;
+}/*# sourceMappingURL=Register.css.map */

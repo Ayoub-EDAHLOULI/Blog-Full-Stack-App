@@ -1,0 +1,113 @@
+.profile-form {
+  width: 100%;
+  height: 120%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 150px;
+
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(
+      rgba(232, 45, 133, 0.6),
+      rgba(232, 45, 133, 0.6)
+    );
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      cursor: pointer;
+    }
+  }
+
+  .form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+
+    .input-group-one {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 20px;
+
+      .labelError {
+        color: red;
+        font-size: 15px;
+        margin-bottom: 10px;
+      }
+
+      input {
+        width: 300px;
+        height: 40px;
+        padding: 10px;
+        border: 1px solid #181818;
+        border-radius: 5px;
+        outline: none;
+      }
+    }
+
+    .input-group-two {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 20px;
+
+      .labelError {
+        color: red;
+        font-size: 15px;
+        margin-bottom: 10px;
+      }
+
+      input {
+        width: 300px;
+        height: 40px;
+        padding: 10px;
+        border: 1px solid #181818;
+        border-radius: 5px;
+        outline: none;
+      }
+
+      textarea {
+        width: 300px;
+        height: 100px;
+        padding: 10px;
+        border: 1px solid #181818;
+        border-radius: 5px;
+        outline: none;
+      }
+    }
+
+    .button-group {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 20px;
+
+      button {
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        background-color: #ff4d4d;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+
+      button:hover {
+        background-color: #181818;
+        color: #ff4d4d;
+      }
+    }
+  }
+}

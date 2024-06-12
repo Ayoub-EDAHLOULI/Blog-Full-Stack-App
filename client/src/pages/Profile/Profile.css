@@ -1,0 +1,89 @@
+.profileSecction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+.profileSecction .profileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+.profileSecction .profileContainer .profileImage img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.profileSecction .profileContainer .profileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.profileSecction .profileContainer .profileInfo .labelError {
+  color: red;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.profileSecction .profileContainer .profileInfo input {
+  width: 450px;
+  height: 50px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.profileSecction .profileContainer .profileInfo input::-moz-placeholder {
+  color: #ccc;
+  font-size: 14px;
+  font-weight: 500;
+}
+.profileSecction .profileContainer .profileInfo input::placeholder {
+  color: #ccc;
+  font-size: 14px;
+  font-weight: 500;
+}
+.profileSecction .profileContainer .profileInfo button {
+  width: 450px;
+  height: 50px;
+  background-color: #ff6600;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.profileSecction .profileContainer .profileInfo button:hover {
+  background-color: #ff6605;
+}
+.profileSecction .profileContainer .profileInfo .buttom {
+  display: flex;
+  justify-content: space-between;
+  width: 440px;
+  margin-top: 50px;
+  color: red;
+  font-size: 16px;
+  font-weight: 450;
+}
+.profileSecction .profileContainer .profileInfo .buttom div {
+  cursor: pointer;
+}
+.profileSecction .profileContainer .profileInfo .buttom a {
+  color: red;
+  text-decoration: none;
+}/*# sourceMappingURL=Profile.css.map */

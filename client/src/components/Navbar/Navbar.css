@@ -1,0 +1,83 @@
+.Navigation {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.Navigation .blackSinta {
+  width: 100%;
+  height: 30px;
+  background-color: #181818;
+  color: #fff;
+  position: relative;
+}
+.Navigation .blackSinta .iconContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 30px;
+}
+.Navigation .blackSinta .iconContainer i {
+  margin: 0 10px;
+  font-size: 13.5px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.Navigation .blackSinta .iconContainer i:hover {
+  color: var(--primary-color);
+}
+.Navigation .Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  height: 82px;
+}
+.Navigation .Navbar .NavLogo {
+  width: 140px;
+  height: 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.Navigation .Navbar ul {
+  display: flex;
+  list-style: none;
+  margin-right: 100px;
+}
+.Navigation .Navbar ul li {
+  margin-left: 2.3rem;
+}
+.Navigation .Navbar ul a {
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.Navigation .Navbar ul a:hover {
+  color: var(--primary-color);
+}
+.Navigation .Navbar .auth a:nth-child(1) {
+  color: var(--text-color);
+  font-size: 16px;
+  margin-right: 18px;
+  transition: all 0.3s ease-in-out;
+}
+.Navigation .Navbar .auth a:nth-child(1):hover {
+  color: var(--primary-color);
+}
+.Navigation .Navbar .auth a:nth-child(2) {
+  color: #fff;
+  font-size: 16px;
+  background-color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}/*# sourceMappingURL=Navbar.css.map */

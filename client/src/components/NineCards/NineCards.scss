@@ -1,0 +1,45 @@
+.nine-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  margin: 0 80px;
+
+  .card {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+
+    img {
+      width: 150px;
+      height: 100px;
+      object-fit: cover;
+    }
+
+    .info {
+      margin-left: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: start;
+
+      a {
+        color: var(--text-color);
+        text-transform: uppercase;
+        text-align: start;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 10px 0;
+      }
+
+      span {
+        color: #89898a;
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+  }
+}

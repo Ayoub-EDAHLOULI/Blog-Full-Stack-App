@@ -1,0 +1,123 @@
+.articles {
+  margin-bottom: 10%;
+}
+.articles .create-article {
+  width: 180px;
+  height: 50px;
+  position: absolute;
+  right: 30px;
+  top: 110px;
+  background-color: #ff6600;
+  border: none;
+}
+.articles .create-article a {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.articles .create-article a:hover {
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+}
+.articles .articles-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding: 1rem;
+  margin-top: 120px;
+}
+.articles .articles-container .article {
+  transition: all 0.5s ease-in-out;
+}
+.articles .articles-container .article img {
+  width: 400px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0.5rem 0;
+  border-radius: 10px;
+  background-size: 100%;
+}
+.articles .articles-container .article .article-info {
+  width: 370px;
+  height: 190px;
+  background-color: #fff;
+  position: relative;
+  top: -60px;
+  left: 30px;
+  border-radius: 10px 0px 10px 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.articles .articles-container .article .article-info .content {
+  padding: 1.2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.articles .articles-container .article .article-info .content .infos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.articles .articles-container .article .article-info .content .infos .timezone {
+  background-color: #ff3838;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+}
+.articles .articles-container .article .article-info .content .infos .author {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+}
+.articles .articles-container .article .article-info .content .infos i {
+  font-size: 16px;
+  font-weight: 600;
+}
+.articles .articles-container .article .article-info .content .infos span {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.articles .articles-container .article .article-info .title {
+  margin: 1rem 0;
+  transition: 0.2s ease-in-out;
+}
+.articles .articles-container .article .article-info .title:hover {
+  cursor: pointer;
+  color: #ff3838;
+}
+.articles .articles-container .article .article-info .title h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.articles .articles-container .article .article-info .details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.articles .articles-container .article .article-info .details a {
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+  color: #ff3838;
+}
+.articles .articles-container .article .article-info .details span {
+  font-size: 0.8rem;
+  color: #ff3838;
+}/*# sourceMappingURL=Articles.css.map */

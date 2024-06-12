@@ -1,0 +1,111 @@
+.articles-crud {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #000;
+
+    .articles-crud-line {
+      width: 50%;
+      height: 2px;
+      background-color: #ff4d4d;
+      margin: 10px 0;
+    }
+  }
+
+  .articles-crud-form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 40px;
+
+    .article {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #ff4d4d;
+      width: 100%;
+      margin: 10px 0;
+      border-radius: 20px;
+
+      .article-image {
+        width: 80px;
+        height: 40px;
+        object-fit: cover;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          cursor: pointer;
+          border-top-left-radius: 20px;
+          border-bottom-left-radius: 20px;
+        }
+      }
+
+      .article-title {
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: #fff;
+        letter-spacing: 2px;
+      }
+
+      .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 15px;
+        margin-right: 20px;
+
+        i {
+          font-size: 1.2rem;
+          color: #fff;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
+        }
+
+        .edit {
+          &:hover {
+            color: green;
+          }
+        }
+
+        .trash {
+          &:hover {
+            color: #9e0c0c;
+          }
+        }
+      }
+    }
+  }
+
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    button {
+      background-color: #ff4d4d;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      margin: 0 5px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        background-color: var(--primary-color);
+      }
+    }
+  }
+}

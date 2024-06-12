@@ -1,0 +1,90 @@
+.aboutUs {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 50px 0;
+  row-gap: 50px;
+  background-color: #070c2b;
+  text-align: center;
+  position: relative;
+
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    filter: brightness(0.5);
+    overflow: hidden;
+  }
+
+  .aboutUsTitle {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 0 4.4rem;
+    letter-spacing: 1.2px;
+    position: relative;
+    color: #fff;
+  }
+
+  .line {
+    &::before {
+      content: "";
+      display: block;
+      width: 90px;
+      height: 3px;
+      background-color: #ff3838;
+      position: absolute;
+      bottom: -10px;
+      left: 30px;
+      border-radius: 10px;
+    }
+  }
+
+  .aboutUsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .aboutUsImg {
+      width: 40%;
+      height: 60vh;
+      object-fit: cover;
+      border: 1px solid #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background: url("../../assets/me.jpg") center/cover no-repeat;
+    }
+
+    .aboutUsContent {
+      width: 50%;
+      text-align: start;
+
+      .contentTitle {
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: #ff3838;
+      }
+
+      .aboutUsText {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #fefefe;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .contentButton {
+        margin-top: 20px;
+        outline: none;
+
+        button {
+          background-color: #ff3838;
+          outline: none;
+        }
+      }
+    }
+  }
+}
