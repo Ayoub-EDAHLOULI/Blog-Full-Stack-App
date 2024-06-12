@@ -1,5 +1,5 @@
 Here I will explain a little what was done here. This project is a BLOG. 
-I created it in approximately three or four weeks, through which I learned a lot of things, in general, Here is all the languages ​​and tools that I worked.
+I created it in approximately three or four weeks, through which I learned a lot of things, in general, Here is all the languages ​​and tools that I worked with.
 
 ###For the Backend :
 Express Js
